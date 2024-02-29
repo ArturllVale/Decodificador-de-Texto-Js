@@ -43,3 +43,15 @@ body {
 .destaque {
     color: #8B70C3;
 }
+
+.text-area {
+
+}
+
+.area {
+    width: 500px;
+    height: 400px;
+    background-color: #FBFBFB;
+    padding: 10px;
+    border-radius: 20px;
+}
