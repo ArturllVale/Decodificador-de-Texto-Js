@@ -62,9 +62,9 @@ body {
 
 .btn-area {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 2em;
-    margin-bottom: 4em;
+    justify-content: center;
+    margin-top: 4em;
+    padding-bottom: 14em;
 }
 
 .btn-01 {
@@ -73,6 +73,7 @@ body {
     background-color: #8B70C3;
     color: antiquewhite;
     border-radius: 13px;
+    margin-right: 46px;
 }
 
 .btn-02 {
