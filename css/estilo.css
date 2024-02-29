@@ -82,7 +82,7 @@ body {
     text-decoration: none;
 }
 
-.btn-01:focus {
+.btn-are a:focus {
     width: 326px;
     height: 73px;
     background-color: #8B70C3;
@@ -96,7 +96,7 @@ body {
     -moz-box-shadow: 0;
 }
 
-.btn-01:hover {
+.btn-are a:hover {
     width: 326px;
     height: 73px;
     background-color: #8B70C3;
