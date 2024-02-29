@@ -82,13 +82,14 @@ body {
     text-decoration: none;
 }
 
-.btn-are a:focus {
+.btn-area a:focus,
+.btn-area a:hover {
+    /* Estilos comuns para hover e foco */
     width: 326px;
     height: 73px;
     background-color: #8B70C3;
     color: #FFFFFF;
     border-radius: 13px;
-    margin-right: 46px;
     text-align: center;
     line-height: 1.4;
     box-shadow: 0;
@@ -96,19 +97,6 @@ body {
     -moz-box-shadow: 0;
 }
 
-.btn-are a:hover {
-    width: 326px;
-    height: 73px;
-    background-color: #8B70C3;
-    color: #FFFFFF;
-    border-radius: 13px;
-    margin-right: 46px;
-    text-align: center;
-    line-height: 1.4;
-    box-shadow: 0;
-    -webkit-box-shadow: 0;
-    -moz-box-shadow: 0;
-}
 
 .btn-02 {
     width: 326px;
