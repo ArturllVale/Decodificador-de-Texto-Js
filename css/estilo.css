@@ -15,15 +15,15 @@ body {
 }
 
 .header {
-    box-shadow: 1px 10px 8px -4px rgba(145,145,145,0.73);
-    -webkit-box-shadow: 1px 10px 8px -4px rgba(145,145,145,0.73);
-    -moz-box-shadow: 1px 10px 8px -4px rgba(145,145,145,0.73);
+    box-shadow: 0px 3px 5px -2px rgba(145,145,145,1);
+    -webkit-box-shadow: 0px 3px 5px -2px rgba(145,145,145,1);
+    -moz-box-shadow: 0px 3px 5px -2px rgba(145,145,145,1);
     width: 1280px;
 }
 
 .logo {
-    padding: 20px 0px 20px 45px;
-    font-size: 28px;
+    padding: 24px 0px 24px 64px;
+    font-size: 40px;
     font-weight: 700;
     margin: 0;
 }
@@ -33,11 +33,11 @@ body {
 }
 
 .hero p {
-    font-size: 30px;
+    font-size: 29px;
     font-weight: 500;
     max-width: 600px;
     margin: auto;
-    padding: 50px 0px;
+    padding: 60px 0px;
 }
 
 .destaque {
