@@ -22,7 +22,7 @@ body {
 }
 
 .logo {
-    padding: 20px 0px 20px 12px;
+    padding: 20px 0px 20px 45px;
     font-size: 28px;
     font-weight: 700;
     margin: 0;
@@ -30,6 +30,14 @@ body {
 
 .hero {
     text-align: center;
+}
+
+.hero p {
+    font-size: 30px;
+    font-weight: 500;
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 0px;
 }
 
 .destaque {
