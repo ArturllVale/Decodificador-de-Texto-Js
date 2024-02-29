@@ -91,6 +91,9 @@ body {
     margin-right: 46px;
     text-align: center;
     line-height: 1.4;
+    box-shadow: 0px;
+    -webkit-box-shadow: 0px;
+    -moz-box-shadow: 0px;
 }
 
 .btn-01:hover {
