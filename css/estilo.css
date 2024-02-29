@@ -81,7 +81,7 @@ body {
     line-height: 1.4;
 }
 
-.btn-01:hover {
+.btn-01:focus {
     width: 326px;
     height: 73px;
     background-color: #8B70C3;
