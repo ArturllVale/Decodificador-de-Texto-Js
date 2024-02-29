@@ -63,6 +63,8 @@ body {
 .btn-area {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 2em;
+    margin-bottom: 4em;
 }
 
 .btn-01 {
@@ -70,6 +72,7 @@ body {
     height: 73px;
     background-color: #8B70C3;
     color: antiquewhite;
+    border-radius: 13px;
 }
 
 .btn-02 {
@@ -77,4 +80,5 @@ body {
     height: 73px;
     background-color: #D16D9D;
     color: antiquewhite;
+    border-radius: 13px;
 }
