@@ -74,6 +74,9 @@ body {
     color: antiquewhite;
     border-radius: 13px;
     margin-right: 46px;
+    box-shadow: 1px 4px 4px 0px rgba(0,0,0,0.22);
+    -webkit-box-shadow: 1px 4px 4px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: 1px 4px 4px 0px rgba(0,0,0,0.22);
 }
 
 .btn-02 {
@@ -82,4 +85,7 @@ body {
     background-color: #D16D9D;
     color: antiquewhite;
     border-radius: 13px;
+    box-shadow: 1px 4px 4px 0px rgba(0,0,0,0.22);
+    -webkit-box-shadow: 1px 4px 4px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: 1px 4px 4px 0px rgba(0,0,0,0.22);
 }
