@@ -131,3 +131,10 @@ body {
     font-size: 22px;
     font-weight: 500;
 }
+
+.rodape {
+    height: 78px;
+    width: 1280px;
+    line-height: 1;
+    padding: 1em 0;
+}
