@@ -6,44 +6,8 @@
     <title>Decodificador - Artur Vale</title>
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <script>
-        function criptografar(texto) {
-            return texto.replace(/e/g, "enter")
-                        .replace(/i/g, "imes")
-                        .replace(/a/g, "ai")
-                        .replace(/o/g, "ober")
-                        .replace(/u/g, "ufat");
-        }
-
-        function descriptografar(texto) {
-            return texto.replace(/enter/g, "e")
-                        .replace(/imes/g, "i")
-                        .replace(/ai/g, "a")
-                        .replace(/ober/g, "o")
-                        .replace(/ufat/g, "u");
-        }
-
-        function executar(acao) {
-            var texto = document.getElementById("text-colar").value.toLowerCase();
-            var resultado;
-
-            if (acao === "criptografar") {
-                resultado = criptografar(texto);
-            } else {
-                resultado = descriptografar(texto);
-            }
-
-            document.getElementById("text-copiar").value = resultado;
-        }
-
-        function copiar() {
-            var resultado = document.getElementById("text-copiar");
-            resultado.select();
-            resultado.setSelectionRange(0, 99999); /* Para dispositivos móveis */
-            document.execCommand("copy");
-            alert("Texto copiado para a área de transferência!");
-        }
-    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/functions.js"></script>
 </head>
 <body>
     <div class="container">
@@ -59,6 +23,8 @@
             </div>
             <div class="area">
                 <textarea name="copiar" id="text-copiar" cols="30" rows="10" placeholder="Resultado Aqui..." readonly></textarea>
+               <!-- <button onclick="copiar()">Copiar resultado</button> -->
+                <i class="fa-solid fa-copy" onclick="copiar()"></i>
             </div>            
         </div>
         <div class="btn-area">
@@ -68,7 +34,6 @@
             <a href="#" class="btn-02" onclick="executar('descriptografar')">
                 <p>Descriptografar Texto</p>
             </a>
-            <button onclick="copiar()">Copiar resultado</button>
         </div>
         <div class="rodape">
             <p>Desenvolvido por <span class="destaque">Artur Vale</span></p>
