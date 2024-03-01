@@ -226,8 +226,12 @@ textarea:focus {
 
 @media only screen and (max-width: 360px) {
 
+    .header {
+        width: auto;
+    }
+
     .logo {
-        padding: 24px 0px 24px 34px;
+        padding: 24px;
     }
 
     .hero p {
@@ -258,5 +262,9 @@ textarea:focus {
 
     .btn-01 {
         margin-bottom: 1em;
+    }
+
+    .rodape {
+        width: auto;
     }
 }
