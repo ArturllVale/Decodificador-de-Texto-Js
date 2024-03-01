@@ -32,5 +32,5 @@ function copiar() {
     resultado.select();
     resultado.setSelectionRange(0, 99999); /* Para dispositivos móveis */
     document.execCommand("copy");
-    alert("Texto copiado para a área de transferência!");
+    alert("Texto copiado!");
 }
