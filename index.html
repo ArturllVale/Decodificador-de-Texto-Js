@@ -23,9 +23,10 @@
             </div>
             <div class="area">
                 <textarea name="copiar" id="text-copiar" cols="30" rows="10" placeholder="Resultado Aqui..." readonly></textarea>
-                <button>
-                    <i class="fa-solid fa-copy" onclick="copiar()"></i>
-                </button>
+                <div class="icon-container">
+                    <i class="fa-solid fa-copy" id="copy-icon" onclick="copiar()"></i>
+                    <div class="tooltip" id="tooltip">Copiar</div>
+                </div>                
             </div>            
         </div>
         <div class="btn-area">
