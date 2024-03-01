@@ -6,6 +6,44 @@
     <title>Decodificador - Artur Vale</title>
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <script>
+        function criptografar(texto) {
+            return texto.replace(/e/g, "enter")
+                        .replace(/i/g, "imes")
+                        .replace(/a/g, "ai")
+                        .replace(/o/g, "ober")
+                        .replace(/u/g, "ufat");
+        }
+
+        function descriptografar(texto) {
+            return texto.replace(/enter/g, "e")
+                        .replace(/imes/g, "i")
+                        .replace(/ai/g, "a")
+                        .replace(/ober/g, "o")
+                        .replace(/ufat/g, "u");
+        }
+
+        function executar(acao) {
+            var texto = document.getElementById("text-colar").value.toLowerCase();
+            var resultado;
+
+            if (acao === "criptografar") {
+                resultado = criptografar(texto);
+            } else {
+                resultado = descriptografar(texto);
+            }
+
+            document.getElementById("text-copiar").value = resultado;
+        }
+
+        function copiar() {
+            var resultado = document.getElementById("text-copiar");
+            resultado.select();
+            resultado.setSelectionRange(0, 99999); /* Para dispositivos móveis */
+            document.execCommand("copy");
+            alert("Texto copiado para a área de transferência!");
+        }
+    </script>
 </head>
 <body>
     <div class="container">
@@ -20,21 +58,21 @@
                 <textarea name="colar" id="text-colar" cols="30" rows="10" placeholder="Digite aqui..."></textarea>
             </div>
             <div class="area">
-                <textarea name="colar" id="text-copiar" cols="30" rows="10" placeholder="Resultado Aqui..."></textarea>
+                <textarea name="copiar" id="text-copiar" cols="30" rows="10" placeholder="Resultado Aqui..."></textarea>
             </div>
         </div>
         <div class="btn-area">
-            <a href="#" class="btn-01" type>
+            <a href="#" class="btn-01" onclick="executar('criptografar')">
                 <p>Encriptografar Texto</p>
             </a>
-            <a href="#" class="btn-02">
+            <a href="#" class="btn-02" onclick="executar('descriptografar')">
                 <p>Descriptografar Texto</p>
             </a>
+            <button onclick="copiar()">Copiar resultado</button>
         </div>
         <div class="rodape">
             <p>Desenvolvido por <span class="destaque">Artur Vale</span></p>
         </div>
     </div>
-    
 </body>
 </html>
