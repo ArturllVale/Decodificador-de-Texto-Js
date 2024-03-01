@@ -225,6 +225,16 @@ textarea:focus {
 /* Adicionando Media Queries u.u a parte que mais gosto */
 
 @media only screen and (max-width: 360px) {
+
+    .logo {
+        padding: 24px 0px 24px 34px;
+    }
+
+    .hero p {
+        font-size: 25px;
+        padding: 60px 6px;
+    }
+
     .container {
         width: 90%;
     }
@@ -238,10 +248,12 @@ textarea:focus {
     .area {
         margin-bottom: 1em;
         width: 90%;
+        height: 220px;
     }
 
     .btn-area {
         flex-flow: column;
+        margin-top: 1em;
     }
 
     .btn-01 {
