@@ -83,7 +83,6 @@ body {
 }
 
 .btn-area a {
-    /* Estilos comuns para os botões */
     width: 326px;
     height: 73px;
     color: #FFFFFF;
@@ -102,7 +101,6 @@ body {
 
 .btn-area a:hover,
 .btn-area a:focus {
-    /* Estilos de hover e foco */
     transform: scale(0.95);
 }
 
@@ -147,23 +145,24 @@ body {
 }
 
 textarea {
-    width: calc(100% - 2em); /* Tamanho da área com padding de 1em */
+    width: calc(100% - 2em);
     padding: 0.5em;
     border: none;
-    background-color: #FBFBFB; /* Fundo branco */
-    color: #555; /* Cor do texto */
-    font-family: Arial, sans-serif; /* Fonte */
-    font-size: 16px; /* Tamanho da fonte */
+    background-color: #FBFBFB;
+    color: #555;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    resize: none;
 }
 
 textarea::placeholder {
-    color: #999; /* Cor do placeholder */
+    color: #999;
 }
 
 textarea:focus::placeholder {
-    color: transparent; /* Placeholder fica transparente ao focar */
+    color: transparent;
 }
 
 textarea:focus {
-    outline: none; /* Remove a borda de foco ao clicar na área de texto */
+    outline: none;
 }
