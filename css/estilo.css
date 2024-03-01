@@ -221,3 +221,17 @@ textarea:focus {
     margin-top: -14px;
     color: #8b70c3;
 }
+
+/* Adicionando Media Queries u.u a parte que mais gosto */
+
+@media only screen and (max-width: 360px) {
+    .text-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .area {
+        margin-bottom: 1em;
+    }
+
+}
