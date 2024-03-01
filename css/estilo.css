@@ -225,6 +225,10 @@ textarea:focus {
 /* Adicionando Media Queries u.u a parte que mais gosto */
 
 @media only screen and (max-width: 360px) {
+    .container {
+        width: 90%;
+    }
+
     .text-area {
         display: flex;
         flex-direction: column;
