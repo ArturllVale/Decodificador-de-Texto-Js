@@ -215,3 +215,8 @@ textarea:focus {
 .fa-copy:active {
     animation: click-animation 0.2s;
 }
+
+.icon-container i {
+    font-size: 30px;
+    margin-top: -14px;
+}
